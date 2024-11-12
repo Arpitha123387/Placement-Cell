@@ -1,4 +1,4 @@
-Python
+Python==3
 Django==3.2
 dbsqlite3
 pip
