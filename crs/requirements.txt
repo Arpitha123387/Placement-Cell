@@ -1,0 +1,7 @@
+Python
+Django==3.2
+dbsqlite3
+pip
+jquery
+django-datatables-view==1.17.0
+djangorestframework==3.9.1
