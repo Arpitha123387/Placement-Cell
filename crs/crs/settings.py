@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'i&+(_w8q)cn=(+0e3dff@ka99wejvlpm&c&cetm=##ih^_)_i='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -74,7 +74,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'crs.wsgi.application'
 
 
-# Daabase
+# Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
